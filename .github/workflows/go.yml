@@ -6,8 +6,10 @@ on:
   pull_request:
     branches: [ main ]
 
-jobs:
+env:
+  GO111MODULE: auto
 
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
