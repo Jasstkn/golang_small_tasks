@@ -7,8 +7,8 @@ func TestReverseArray(t *testing.T) {
 	result := reverseArray([]int{1, 2, 3})
 
 	for i := range result {
-        if result[i] != expected[i] {
-            t.Errorf("Reverse operation isn't right, got: %v, want: %v.", result, expected)
-        }
-    }
+		if result[i] != expected[i] {
+			t.Errorf("Reverse operation isn't right, got: %v, want: %v.", result, expected)
+		}
+	}
 }
