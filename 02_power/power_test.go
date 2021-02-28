@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func testPawInt(t *testing.T) {
+func TestPawInt(t *testing.T) {
 	expected := []float64{2, 4, 8, 16, 32, 64, 128, 256, 512, 1024}
 	result := pawInt(10)
 
